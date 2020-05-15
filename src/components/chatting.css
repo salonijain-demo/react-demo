@@ -1,0 +1,10 @@
+.chat-box{
+  margin-left: 400px;
+  margin-top: 50px;
+  background-color: lightgray;
+  border: 1px solid gray;
+  height: 450px;
+}
+.create{
+  margin-top: 357px;
+}
