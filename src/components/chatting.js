@@ -40,7 +40,6 @@ class Chatting extends Component{
     const api='http://ed1027f7.ngrok.io/messages';
     axios.get(api).then(
       response=>{
-        console.log(response)
         this.setState({
           messages: response.data
         }) .catch(error=>{
