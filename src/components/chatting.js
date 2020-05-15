@@ -37,7 +37,7 @@ class Chatting extends Component{
   }
 
   componentDidMount(){
-    const api='http://ed1027f7.ngrok.io/messages'
+    const api='http://ed1027f7.ngrok.io/messages';
     axios.get(api).then(
       response=>{
         this.setState({
